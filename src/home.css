@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home h2 {
+    font-size: 2rem;
+}
+
+.home h3 {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,28 @@
+.container-moviesimdb {
+    display: flex;
+    /* padding-top: 50px; */
+    width: 70%;
+
+    
+}
+
+.container-moviesimdb img {
+    flex-basis: 50%
+}
+
+.container-moviesimdb h2 {
+    font-size: 2rem;
+    margin-left: 60px;   
+}
+
+.container-moviesimdb p {
+    margin-left: 60px;
+    font-size: 1.3rem;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}

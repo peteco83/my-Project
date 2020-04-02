@@ -1,0 +1,51 @@
+.list-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 100px;
+    
+}
+
+.list-movies li {
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.list-movies>div {
+    list-style: none;
+    /* text-align: center; */
+}
+
+/* img {
+    height: 90px;
+    width: auto;
+} */
+
+.container-movies{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 80%;
+    padding-top: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.radio, button {
+    margin-left: 10px;
+}
+
+button {
+    width: 5rem;
+}
+
+form>input{
+    width: 300px;
+    font-size: 1.3rem;
+}
+
